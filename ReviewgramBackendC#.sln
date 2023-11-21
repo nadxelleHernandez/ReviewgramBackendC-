@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revieGramBackend", "revieGramBackend\revieGramBackend.csproj", "{B854FA89-32D2-491C-B8B1-BF39FAC1F260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revieGramModels", "revieGramBackend.Contracts\revieGramBackend.Contracts.csproj", "{CFB4106A-C193-403C-B85C-1C1C45D2935C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B854FA89-32D2-491C-B8B1-BF39FAC1F260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B854FA89-32D2-491C-B8B1-BF39FAC1F260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B854FA89-32D2-491C-B8B1-BF39FAC1F260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B854FA89-32D2-491C-B8B1-BF39FAC1F260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
