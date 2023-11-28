@@ -1,6 +1,6 @@
 # Reviewgram API build in ASP.Net and C#
 
-This is the reviewgram API build in C# for learning purposes. ReviewGram is a full stack webAPI for finding reviews and ratings of TV shows and movies, and keep your own watchlists.
+This is a work in progress. This is the reviewgram API build in C# for learning purposes. ReviewGram is a full stack webAPI for finding reviews and ratings of TV shows and movies, and keep your own watchlists.
  
 ## Feature Set
 
