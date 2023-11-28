@@ -1,7 +1,8 @@
 using revieGramBackend.Contracts.Reviews;
 
 namespace revieGramBackend.Contracts.Reviews {
-    public record CreateReviewRequest(
+    public record ReviewResponse(
+        int Id,
         float Rating,
         string Content,
         DateTime Created,

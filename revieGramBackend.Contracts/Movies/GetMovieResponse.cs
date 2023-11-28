@@ -8,6 +8,7 @@ namespace revieGramBackend.Contracts.Movies {
         float Rating,
         int Vote_count,
         string Original_language,
-        bool IsMovie
+        bool IsMovie,
+        List <string> Genres
     );
 }

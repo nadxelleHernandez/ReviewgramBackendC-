@@ -1,7 +1,9 @@
+using System.Data.Common;
 using revieGramBackend.Contracts.Reviews;
 
 namespace revieGramBackend.Contracts.Reviews {
-    public record CreateReviewRequest(
+    public record UpdateReviewRequest(
+        int Id,
         float Rating,
         string Content,
         DateTime Created,
