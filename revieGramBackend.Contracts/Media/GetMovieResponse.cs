@@ -1,4 +1,4 @@
-namespace revieGramBackend.Contracts.Movies {
+namespace revieGramBackend.Contracts.Media {
     public record GetMovieResponse(
         string TMDB_id,
         string Title,

@@ -4,14 +4,14 @@
     "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj": {}
   },
   "projects": {
-    "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj": {
+    "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend.Contracts\\revieGramBackend.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj",
-        "projectName": "revieGramBackend",
-        "projectPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj",
+        "projectUniqueName": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend.Contracts\\revieGramBackend.Contracts.csproj",
+        "projectName": "revieGramBackend.Contracts",
+        "projectPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend.Contracts\\revieGramBackend.Contracts.csproj",
         "packagesPath": "C:\\Users\\chobi\\.nuget\\packages\\",
-        "outputPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\obj\\",
+        "outputPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,12 +37,63 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.5.0, )"
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
             }
           },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.416\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj",
+        "projectName": "revieGramBackend",
+        "projectPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\revieGramBackend.csproj",
+        "packagesPath": "C:\\Users\\chobi\\.nuget\\packages\\",
+        "outputPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\chobi\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend.Contracts\\revieGramBackend.Contracts.csproj": {
+                "projectPath": "D:\\Programing\\C#\\ReviewgramBackendC#\\revieGramBackend.Contracts\\revieGramBackend.Contracts.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
