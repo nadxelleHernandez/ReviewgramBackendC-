@@ -1,10 +1,9 @@
 using revieGramBackend.models;
 
 namespace revieGramBackend.Contracts.Media {
-
-    public record GetMovieResponse(
+    public record GetTVShowResponse(
         string Message,
-        Movie Movie,
-        int StatusCode
+        int StatusCode,
+        TVShow TVShow
     );
 }

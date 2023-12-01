@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace revieGramBackend.Controllers;
 
 [ApiController]
+[Route("[controller]")]
 public class MediaController : ControllerBase 
 {
     [HttpGet("image-url")]
@@ -35,12 +36,12 @@ public class MediaController : ControllerBase
         return Ok();
     }
 
-    [HttpGet("/tv/{TMDB_id:int}/reviews")]
+    [HttpGet("tv/{TMDB_id:int}/reviews")]
     public IActionResult GetTVShowReviews(int TMDB_id) {
         return Ok(TMDB_id);
     }
-    
-    [HttpGet("/movies/{TMDB_id:int}/reviews")]
+
+    [HttpGet("movies/{TMDB_id:int}/reviews")]
     public IActionResult GetMovieReviews(int TMDB_id) {
         return Ok(TMDB_id);
     }

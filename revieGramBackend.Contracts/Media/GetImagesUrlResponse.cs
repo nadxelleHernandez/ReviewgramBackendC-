@@ -1,5 +1,9 @@
+using revieGramBackend.models;
+
 namespace revieGramBackend.Contracts.Media {
     public record GetImagesUrlResponse(
-        string Url
+        string Message,
+        int StatusCode,
+        ImgConfiguration Configuration
     );
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revieGramBackend", "revieGr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revieGramModels", "revieGramBackend.Contracts\revieGramBackend.Contracts.csproj", "{CFB4106A-C193-403C-B85C-1C1C45D2935C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "revieGramBackend.Models", "revieGramBackend.Models\revieGramBackend.Models.csproj", "{54F8AF80-3006-4AC4-AC6C-8B249C3BC730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFB4106A-C193-403C-B85C-1C1C45D2935C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F8AF80-3006-4AC4-AC6C-8B249C3BC730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F8AF80-3006-4AC4-AC6C-8B249C3BC730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F8AF80-3006-4AC4-AC6C-8B249C3BC730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F8AF80-3006-4AC4-AC6C-8B249C3BC730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
